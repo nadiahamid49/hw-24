@@ -1,0 +1,90 @@
+/* ****table of content****
+====================
+======home-page======
+1. top bar section
+2. menu section
+3. hero section
+4.footer section
+
+
+=====common css start=======
+
+*/
+
+/* font family link */
+:root{
+    --primary-font: 'Josefin Sans', sans-serif;
+    --secondary-font: 'Roboto', sans-serif;
+    /* text color */
+    --text-color:
+}
+body{
+    font-family: var(--primary-font);
+}
+p{
+    font-family: var(--secondary-font);
+}
+
+/* font family end */
+
+/* reset css start*/
+h1,h2,h3,h4,h5,h6,
+p,
+ol,ul,
+span,
+small{
+    margin: 0;
+    padding: 0;
+}
+ol,ul{
+    list-style-type: none;
+}
+a,a:hover{
+    text-decoration: none;
+}
+input:focus{
+    outline: 0;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+/* reset css end */
+
+/* top header start */
+#header{
+    background-color: #151A32;
+    padding: 11px 0;
+
+}
+#header p{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+#header p i{
+    color:#FF6F61;
+}
+#header p span{
+    color:#FF6F61;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+#header ul li{
+    display: inline-block;
+    /* padding-right: 20px; */
+    margin-right: 20px;
+}
+#header ul li a{
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    /* margin-left: 10px; */
+    line-height: 28px;
+}
+#header ul li select option{
+    background: none;
+    border: none;
+}
